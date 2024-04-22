@@ -1,0 +1,15 @@
+--2024-04-21 20:15:57--  https://www.google.com/imgres?q=hr%20meeting
+Resolving www.google.com (www.google.com)... 142.251.33.68, 2607:f8b0:400a:806::2004
+Connecting to www.google.com (www.google.com)|142.251.33.68|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.google.com/imghp [following]
+--2024-04-21 20:15:57--  https://www.google.com/imghp
+Reusing existing connection to www.google.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘imgres?q=hr meeting’
+
+imgres?q=hr meeting                                            [<=>                                                                                                                                   ]       0  --.-KB/s               imgres?q=hr meeting                                            [ <=>                                                                                                                                  ]  18.23K  --.-KB/s    in 0.004s  
+
+2024-04-21 20:15:58 (4.74 MB/s) - ‘imgres?q=hr meeting’ saved [18666]
+
