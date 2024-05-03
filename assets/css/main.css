@@ -29,6 +29,31 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		padding: 40px;
+	  }
+	  .grid-box {
+		border: 1px solid #ccc;
+		padding: 20px;
+		text-align: center;
+	  }
+	  .grid-box img {
+		max-width: 50%;
+		height: auto;
+	  }
+	  .grid-box h2 {
+		margin-top: 10px;
+		margin-bottom: 5px;
+	  }
+	  .grid-box p {
+		margin: 0;
+	  }
+	  
+
 body {
 	line-height: 1;
 }
@@ -1642,6 +1667,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
+			height: 500px;
 			margin: 0 0 2em 0;
 		}
 
@@ -2366,7 +2392,6 @@ input, select, textarea {
 					left: 20px;
 					top: 20px;
 					margin: -50px 0 50px -40px;
-				
 				}
 
 				.box.style1 {
@@ -2380,6 +2405,7 @@ input, select, textarea {
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
+				
 
 		/* Wrappers */
 
